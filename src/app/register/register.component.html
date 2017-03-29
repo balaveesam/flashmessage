@@ -1,0 +1,19 @@
+<form >
+  <div class="col-md-6 col-md-offset-3">
+   <div class="form-group">
+    <label>Name</label>
+     <input type="text" [(ngModel)]="name" name="name" placeholder="enter name"  class="form-control">
+     </div>
+      <div class="form-group">
+    <label>Password</label>
+     <input type="password" [(ngModel)]="password" name="password"  placeholder="enter password" class="form-control" >
+     </div>
+     <div class="form-group">
+    <label>email</label>
+     <input type="email" [(ngModel)]="email" name="email" placeholder="enter email" class="form-control" >
+     </div>
+    <button type="submit" value ="submit" (click)="onRegistersubmit()"> Submit </button>
+    <flash-messages></flash-messages> 
+    <div >
+      </div></div>
+</form>

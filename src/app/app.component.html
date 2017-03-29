@@ -1,0 +1,29 @@
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+<body>
+    <div class="Container">
+        <nav class="navbar navbar-inverse">
+            <ul class="nav navbar-nav">
+          <li  routerLinkActive="active" > <a routerLink="home" >HOME</a></li>
+          <li routerLinkActive="active"> <a routerLink= "register">REGISTER</a></li>
+            </ul>
+        </nav>
+    </div>
+    <router-outlet></router-outlet>
+    
+    <div class="jumbotron">
+    <h3>This is an Mean Authentication App </h3> 
+    <button type="button" class="btn btn-primary "><a>HOME</a></button>
+    <!--<div class="btn btn-primary">
+        <a>HOME</a>
+    </div>-->
+ <button type="button" class="btn btn-primary "><a>REGISTER</a></button>
+     </div>
+</body>
+</html>
